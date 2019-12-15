@@ -1,0 +1,122 @@
+// Write your styles here
+body {
+    margin: 0px;
+    background-color: $themeColor;
+    font-family:"Source Sans Pro", sans-serif;
+}
+div {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+header {
+    background: no-repeat $headerImg 60% 60%;
+    height: 500px;
+    border-radius: 0 0 30em/10em 0;
+    .header-wrap {
+        width: 500px;
+        padding-left: 50px;
+          .landing-logo {
+            font-size: 12px;
+            }
+          .header_heading {
+              font-size: 50px;
+              font-weight: 700;
+              padding: 0;
+              color: $fontColor;
+          }
+          .header_text {
+              font-size: 11px;
+              color: $fontColor;
+          }
+          .header_button {
+              background-color: $bottomColor;
+              font-weight : bolder;
+              color: white;
+          }
+        }
+        div {
+            a.login {
+                padding-left: 100px;
+                color: white;
+            }
+        }
+    } 
+.section {
+    padding-left: 90px;
+    padding-bottom: 100px;
+    .section_text {
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    color: $fontColor;
+    }
+    .section_card {
+        background-color: rgb(40, 40, 40);
+        color: white;
+        width: 1000px;
+        height: 150px;
+        border-radius: 5px;
+        text-align:center;
+        margin: 15px;
+        padding: 10px;
+        .section_card_img {
+            border-radius: 5px;
+            float: left;
+        }
+        .section_card_heading {
+            font-weight: bold;            
+        }
+        .section_link {
+            font-size: 12px;
+            color: white;
+        }
+        .section_card_text {
+            padding: 0 150px 0 400px;
+            font-size: 12px;
+        }
+    }
+    .section_banner {
+        position: absolute;
+        margin-top: 50px;
+        width: 750px;
+        height: 100px;
+        background: linear-gradient(to right, $bottomColor, $gragColor);
+        display: flex;
+        border-radius: 5px;
+        padding: 0 150px 0 150px;
+        .section_banner_heading {
+            font-size: 20px;
+            font-weight: bold;
+            color: $fontColor;            
+        }
+        .section_banner_text {
+            font-size: 12px;
+            color: white;
+        }
+        .section_banner_button {
+            width: 80px;
+            height: 30px;
+            margin: 40px 0 0 250px;
+            background-color: $bottomColor;
+            font-weight : bolder;
+            color: white;
+        }
+    }
+}
+footer {
+    color: white;
+    background-color: rgb(40, 40, 40);
+    font-size: 11px;
+    .footer-wrap {
+        padding: 50px 0 0 0;
+        display: flex;
+        .footer_text {
+        padding: 50px 0 0 350px;
+        width: 250px;
+        }
+       .footer-cr {
+        padding: 80px 0 0 400px;
+       }
+    }
+}
